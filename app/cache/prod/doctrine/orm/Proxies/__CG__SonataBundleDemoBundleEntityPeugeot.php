@@ -38,8 +38,6 @@ class Peugeot extends \Sonata\Bundle\DemoBundle\Entity\Peugeot implements \Doctr
      */
     public static $lazyPropertiesDefaults = array();
 
-
-
     /**
      * @param \Closure $initializer
      * @param \Closure $cloner
@@ -50,12 +48,6 @@ class Peugeot extends \Sonata\Bundle\DemoBundle\Entity\Peugeot implements \Doctr
         $this->__initializer__ = $initializer;
         $this->__cloner__      = $cloner;
     }
-
-
-
-
-
-
 
     /**
      * 
